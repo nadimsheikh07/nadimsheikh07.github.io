@@ -1,8 +1,12 @@
-const Index=({children})=>{
-    return(
-        <header>
-{children}
-        </header>
+import { Container } from "react-bootstrap";
+
+const Index = ({ children }) => {
+    return (
+        <div>            
+            <Container>
+                {children}
+            </Container>
+        </div>
     )
 }
 
