@@ -3,6 +3,10 @@ import {TimeOutline,WifiOutline,ConstructOutline} from 'react-ionicons'
 export const WhyMe = () => {
     return (
         <section className="whyme">
+            <div className="heading-container">
+                <h2>Why Me</h2>
+            </div>
+
             <Container>
                 <Row>
                     <Col>
