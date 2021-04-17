@@ -41,6 +41,11 @@ export const Info = () => {
                             </Nav>
 
                         </div>
+
+                            <div className="hireme">
+
+                        <a className="btn btn-primary" href="mailto:nadim.sheikh.07@gmail.com">Hire Me</a>
+                            </div>
                     </Col>
                 </Row>
             </Container>

@@ -1,8 +1,7 @@
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import MailLayout from "../component/layouts/main";
-import { Col, Image, Row } from "react-bootstrap"
-import { Info,About,WhyMe } from '../component/resume';
+import { Info,About,WhyMe,WhatIDo } from '../component/resume';
 
 const Index = (props) => {
   const { t } = useTranslation()
@@ -13,6 +12,9 @@ const Index = (props) => {
       <About/>
 
       <WhyMe/>
+
+
+      <WhatIDo/>
 
     </MailLayout>
   )
