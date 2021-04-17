@@ -1,10 +1,9 @@
 import { Container, Col, Row, Image, Nav } from "react-bootstrap"
-import { useTranslation } from "react-i18next"
 
 import { LogoTwitter, LogoLinkedin, LogoInstagram, LogoGithub } from 'react-ionicons'
 
 export const Info = () => {
-    const { t } = useTranslation()
+    
     return (
         <section className="info">
             <Container>
@@ -14,8 +13,8 @@ export const Info = () => {
                     </Col>
                     <Col xs="12" sm="12" md="8" lg="8" xl="8">
                         <div className="description">
-                            <h1>{t('title')}</h1>
-                            <p>{t('subtitle')}</p>
+                            <h1>Nadim Sheikh</h1>
+                            <p>Sr. Software Engineer | Laravel | ReactJs | ReactNative | NextJs</p>
 
                             <Nav>
                                 <Nav.Item>
