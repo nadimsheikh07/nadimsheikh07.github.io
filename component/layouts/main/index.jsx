@@ -11,7 +11,7 @@ const Index = ({ children }) => {
     return (
         <React.Fragment>
             <Sidebar
-                sidebar={<Sidemenu setOpenMenu={setOpenMenu}/>}
+                sidebar={<Sidemenu title="Menu" setOpenMenu={setOpenMenu}/>}
                 open={openMenu}
                 pullRight={true}
                 onSetOpen={() => setOpenMenu(!openMenu)}
