@@ -39,8 +39,12 @@ a {
 
 
 .info{  
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 10rem;
+
+  .image{
+    text-align: center;
+  }
 
   .description{
     margin-top: 4rem;    
