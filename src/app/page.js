@@ -1,4 +1,4 @@
-import { Container, Grid, ImageList, ImageListItem, List, ListItem, ListItemText, Typography } from "@mui/material";
+import { Container, Grid, ImageList, ImageListItem, List, ListItem, ListItemText, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
 
 const title = "Nadim Sheikh";
 const image = "https://nadimsheikh07.github.io/image/myimage.jpg";
@@ -116,6 +116,52 @@ export default function Home() {
               <ListItemText primary="Full Stack Engineer" secondary="Pegasus Technologies - July 2015 to June 2017" />
             </ListItem>
           </List>
+        </Grid>
+      </Grid>
+
+      <Grid container spacing={2} mt={2}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom>Academic Qualification</Typography>
+
+          <TableContainer component={Paper}>
+            <Table size="small" >
+              <TableHead>
+                <TableRow>
+                  <TableCell align="left">Degree</TableCell>
+                  <TableCell align="right">University</TableCell>
+                  <TableCell align="right">Year</TableCell>
+                  <TableCell align="right">%</TableCell>
+                </TableRow>
+              </TableHead>
+
+              <TableBody>
+                <TableRow>
+                  <TableCell align="left">MCA</TableCell>
+                  <TableCell align="right">JRNRV University Rajasthan</TableCell>
+                  <TableCell align="right">2014</TableCell>
+                  <TableCell align="right">69%</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left">BCA</TableCell>
+                  <TableCell align="right">JRNRV University Rajasthan</TableCell>
+                  <TableCell align="right">2011</TableCell>
+                  <TableCell align="right">63%</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left">12th</TableCell>
+                  <TableCell align="right">Ajmer Rajasthan Board</TableCell>
+                  <TableCell align="right">2007</TableCell>
+                  <TableCell align="right">46%</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left">10th</TableCell>
+                  <TableCell align="right">Ajmer Rajasthan Board</TableCell>
+                  <TableCell align="right">2005</TableCell>
+                  <TableCell align="right">45%</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </TableContainer>
         </Grid>
       </Grid>
     </Container>

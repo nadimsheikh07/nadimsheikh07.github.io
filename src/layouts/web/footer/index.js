@@ -8,6 +8,7 @@ import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import PinterestIcon from "@mui/icons-material/Pinterest";
+import { GitHub, LinkedIn } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -27,9 +28,12 @@ const Footer = () => {
         >
           <CardContent sx={{ pb: 24 }}>
             <Stack direction="row" justifyContent="center" spacing={2}>
-              <FacebookIcon />
-              <TwitterIcon />
-              <PinterestIcon />
+              <a href="https://github.com/nadimsheikh07" target="_blank">
+                <GitHub />
+              </a>
+              <a href="https://www.linkedin.com/in/nadim-sheikh-b511709b" target="_blank">
+                <LinkedIn />
+              </a>
             </Stack>
             <Typography
               component="p"
