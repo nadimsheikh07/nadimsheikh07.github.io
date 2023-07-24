@@ -172,11 +172,56 @@ export default function Home() {
           <List dense>
             <ListItem>
               <ListItemText primary="Hardworking, devoted and eager to learn new things about technology." />
+            </ListItem>
+            <ListItem>
               <ListItemText primary="Ability to quickly adapt to new responsibilities." />
+            </ListItem>
+            <ListItem>
               <ListItemText primary="Excellence in working with team and individual." />
             </ListItem>
-
           </List>
+        </Grid>
+      </Grid>
+
+
+      <Grid container spacing={2} mt={2}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom>Personal Profile</Typography>
+
+          <TableContainer component={Paper}>
+            <Table size="small">
+              <TableBody>
+                <TableRow>
+                  <TableCell align="left">Father Name</TableCell>
+                  <TableCell align="left">Mr. Late. Khalil Ahmad</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left">Mother Name</TableCell>
+                  <TableCell align="left">Mrs. Mehrun Nisha.</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left">Date of Birth</TableCell>
+                  <TableCell align="left">17 July 1989</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left">Gender</TableCell>
+                  <TableCell align="left">Male</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left">Marital Status</TableCell>
+                  <TableCell align="left">Married</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left">Nationality</TableCell>
+                  <TableCell align="left">Indian</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left">Language known</TableCell>
+                  <TableCell align="left">Hindi, English.</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </TableContainer>
         </Grid>
       </Grid>
     </Container>
