@@ -386,6 +386,165 @@ export default function Home() {
               } />
             </ListItem>
 
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  <a href="https://www.cars24.com/">
+                    Cars24
+                  </a>
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    Aug 2021 – Sep 2021
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    This is a car selling & buying application. My Role in this project is Front End Developer Technology used by React.js, Redux.js, React Bootstrap, And Material Ui.
+                  </Typography>
+
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                    mt={2}
+                  >
+                    Roles & Responsibilities
+                  </Typography>
+
+                  <ul>
+                    <li>implement frontend ui for project requirement’s. </li>
+                    <li>fixing bugs & optimised code.</li>
+                  </ul>
+                </React.Fragment>
+              } />
+            </ListItem>
+
+
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  <a href="https://github.com/nadimsheikh07/invoice-admin">
+                    Simple Invoice
+                  </a>
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    May 2021 – June 2021
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    This is a simple invoice application. My role in this project is Sr. Software Developer & Tech Lead. We are using Laravel for backend API and NextJs for frontend.
+                  </Typography>
+
+                </React.Fragment>
+              } />
+            </ListItem>
+
+
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  ITMAP
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    Feb 2020 – Jan 2021
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    Itmap is a services searching system. customers can search services according to their requirements.
+                  </Typography>
+
+                </React.Fragment>
+              } />
+            </ListItem>
+
+
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  <a href="https://thurayarefill.com/front">
+                    ThurayaRefill
+                  </a>
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    Aug 2020 – Jan 2021
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    Thuraya is a satellite phone recharge application. the end-user can recharge their satellite phone using this application. & also users can purchase refill units for the next recharge.
+                  </Typography>
+
+                </React.Fragment>
+              } />
+            </ListItem>
+
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  <a href="https://www.cuemath.com/">
+                    Cuemath
+                  </a>
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    Nov 2019 – Mar 2020
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    The Cuemath Program has been designed to build a strong math foundation in children by sharpening their knowledge of concepts, aptitude and reasoning skills. My role in this project is front end developer using react.js & next.js.
+                  </Typography>
+
+                </React.Fragment>
+              } />
+            </ListItem>
+
+
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  <a href="https://www.gkmit.co/">
+                    Gkmit Website
+                  </a>
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    Jul 2019 – Sep 2019
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    GKMIT company website. My Role in this project is Front End Developer Technology used by React.js, Redux.js And Bootstrap.
+                  </Typography>
+
+                </React.Fragment>
+              } />
+            </ListItem>
+
           </List>
         </Grid>
       </Grid>
