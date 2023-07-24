@@ -164,6 +164,21 @@ export default function Home() {
           </TableContainer>
         </Grid>
       </Grid>
+
+
+      <Grid container spacing={2} mt={2}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom>Strength</Typography>
+          <List dense>
+            <ListItem>
+              <ListItemText primary="Hardworking, devoted and eager to learn new things about technology." />
+              <ListItemText primary="Ability to quickly adapt to new responsibilities." />
+              <ListItemText primary="Excellence in working with team and individual." />
+            </ListItem>
+
+          </List>
+        </Grid>
+      </Grid>
     </Container>
   )
 }
