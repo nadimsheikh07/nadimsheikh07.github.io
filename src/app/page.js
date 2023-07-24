@@ -1,4 +1,5 @@
 import { Container, Grid, ImageList, ImageListItem, List, ListItem, ListItemText, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+import React from "react";
 
 const title = "Nadim Sheikh";
 const image = "https://nadimsheikh07.github.io/image/myimage.jpg";
@@ -222,6 +223,170 @@ export default function Home() {
               </TableBody>
             </Table>
           </TableContainer>
+        </Grid>
+      </Grid>
+
+
+
+      <Grid container spacing={2} mt={2}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom>Projects</Typography>
+          <List dense>
+
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  <a href="https://assettrackforcloud.com/">
+                    Asset Track For Cloud
+                  </a>
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    Feb 2022 – Present
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    This is an Asset Tracking application. based on laravel & nextJs. My Role in this project is Full Stack Developer Technology used by Laravel, Next.Js, React.js, Redux.js, React Bootstrap, And Material Ui.
+                  </Typography>
+
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                    mt={2}
+                  >
+                    Roles & Responsibilities
+                  </Typography>
+
+                  <ul>
+                    <li>lead project & maintain team tasks.</li>
+                    <li>db design & manage all backend api’s.</li>
+                    <li>implement frontend ui for project requirements.</li>
+                  </ul>
+                </React.Fragment>
+              } />
+            </ListItem>
+
+
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  <a href="https://www.firstpost.com/">
+                    Firstpost
+                  </a>
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    Feb 2022 – Present
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    This is a News application. My Role in this project is Front End Developer Technology used by Express.Js, React.js, Redux.js, React Bootstrap, And Material Ui.
+                  </Typography>
+
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                    mt={2}
+                  >
+                    Roles & Responsibilities
+                  </Typography>
+
+                  <ul>
+                    <li>implement frontend ui for project requirements. </li>
+                    <li>fixing bugs & optimizing according to the seo team.</li>
+                    <li>working with an analytics team for analyzing website data & performance.</li>
+                  </ul>
+                </React.Fragment>
+              } />
+            </ListItem>
+
+
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  <a href="https://www.sedarglobal.com/">
+                    Sedar Global
+                  </a>
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    Jan 2023 – Apr 2023
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    This is an e-commerce application. My Role in this project is Front End Developer Technology used by React.js, Redux.js, and React Bootstrap. The requirement for the project was to convert react js to the next js SSR. We migrate a react application to the next JS SSR.
+                  </Typography>
+
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                    mt={2}
+                  >
+                    Roles & Responsibilities
+                  </Typography>
+
+                  <ul>
+                    <li>fixing bugs & optimizing according to the seo team.</li>
+                    <li>converting react js code to the next js SSR.</li>
+                  </ul>
+                </React.Fragment>
+              } />
+            </ListItem>
+
+
+            <ListItem>
+              <ListItemText primary={
+                <React.Fragment>
+                  <a href="https://mulberri.io/">
+                    Mulberri
+                  </a>
+                </React.Fragment>
+              } secondary={
+                <React.Fragment>
+                  <Typography>
+                    July 2021 – Jan 2022
+                  </Typography>
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    This is an insurance application. My Role in this project is Front End Developer Technology used by React.js, Redux.js, React Bootstrap, And Material Ui.
+                  </Typography>
+
+                  <Typography
+                    component="h6"
+                    variant="body2"
+                    color="text.primary"
+                    mt={2}
+                  >
+                    Roles & Responsibilities
+                  </Typography>
+
+                  <ul>
+                    <li>implement frontend ui for project requirement’s. </li>
+                    <li>fixing bugs & optimised code.</li>
+                  </ul>
+                </React.Fragment>
+              } />
+            </ListItem>
+
+          </List>
         </Grid>
       </Grid>
     </Container>
