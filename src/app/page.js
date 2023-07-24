@@ -25,6 +25,16 @@ export default function Home() {
           <Typography variant="h5" gutterBottom>{heading}</Typography>
         </Grid>
       </Grid>
+
+      <Grid container spacing={2} mt={2}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom>About Me</Typography>
+          <Typography variant="p" gutterBottom>Experienced full-stack engineer looking for a challenging and rewarding opportunity while using open-sourced materials to design Web-based solutions.</Typography>
+          <Typography variant="p" gutterBottom>Comfortable collaborating with Front End developers project manager’s designers and database administrators in the administration of software architecture. I want to work with a well-reputed firm at a good designation.</Typography>
+          <Typography variant="p" gutterBottom>Building a long-term relationship with an organization that offers me learning and growth and at the same time utilizes my potential and skills in the field I am working in.</Typography>
+        </Grid>
+      </Grid>
+      
     </Container>
   )
 }
