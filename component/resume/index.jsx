@@ -1,5 +1,0 @@
-export * from "./info"
-export * from "./about"
-export * from "./whyme"
-export * from "./hireme"
-export * from "./whatIDo"
